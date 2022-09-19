@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 40px;
+    background-color: #1f2937;
+
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+nav {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+li {
+    display: inline;
+    float: right;
+}
