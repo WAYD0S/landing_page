@@ -1,25 +1,39 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
-header {
-    padding: 40px;
+header{
+    padding-top: 5px;
+    padding-bottom: 75px;
     background-color: #1f2937;
 
 }
 
-.logo {
+#logo {
     float: left;
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 200px;
 }
 
-nav {
+#navlist {
     font-size: 18px;
     color: #e5e7eb;
+    padding-right: 200px;
+    float: right;
 }
 
 li {
     display: inline;
-    float: right;
+    float: left;
+    padding-right: 10px;
 }
+
+.hero {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1f2937;
+
+}
+
