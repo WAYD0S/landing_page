@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="styles.css">
-    <title>Index</title>
+    <title>Landing Page</title>
 </head>
 <body>
-    <header>
-        <p id = "logo"><strong>Real Madrid</strong></p>
-        <ul id = "navlist">
-            <li><a href = "https://www.realmadrid.com/en/football/schedule">Fixtures</a></li>
-            <li>Players</li>
-            <li>Shop</li>
-        </ul>
-    </header>
-    
-    <div class="herocontainer">
-        <div class = "left">
-            <h2 id = "maintext">Massive win against Atleti with goals from Rodrygo and Valverde</h2>
-            <p id = "secondarytext">The Real Madrid mens team goes into the Metropolitano Stadium and defeats the Atleti team 2-1 in a heated game which had great performances from the Real Madrid youth and even saw a late red card to Hermoso</p>
-        </div>
-        <div class = "right">
-            <img src="images/landing_page_pic.jpg" alt="Win against Atleti" id = "heroimage" style="width: 600px; height: 350px;">
-        </div>
+    <div class="top-container">
+        <header class="header-container">
+            <h1><a href="index.html" id = "logo"><strong>Real Madrid</strong></a></h1>
+            <ul id = "navlist">
+                <li id = "navitem"><a href = "https://www.realmadrid.com/en/football/schedule">Fixtures</a></li>
+                <li id = "navitem"><a href="https://www.realmadrid.com/en/football/squad" >Players</a></li>
+                <li id = "navitem"><a href="https://shop.realmadrid.com/?lang=en&utm_campaign=enlaces-tienda&utm_source=web&utm_medium=links-tienda&utm_content=menu-1%C2%BA">Shop</a></li>
+            </ul>
+        </header>
         
+        <div class="hero-container">
+            <div class = "left">
+                <h2 id = "maintext">Real Madrid wins against Atleti</h2>
+                <p id = "secondarytext">The Real Madrid mens team goes into the Metropolitano Stadium and defeats the Atleti team 2-1 with goals from Rodrygo and Valverde</p>
+                <button type = "button" id = "moreinfo"><a href="https://www.realmadrid.com/en/news/2022/09/18/1-2-league-leaders-come-out-on-top-in-the-derby-at-the-metropolitano">See article</a></button>
+            </div>
+            <div class = "right">
+                <img src="C:\Users\risha\OneDrive\Documents\Programming\repos\landing_page\images\landing_page_pic.jpg" alt="Win against Atleti" id = "heroimage">
+            </div>
+            
+        </div>
     </div>
 </html>

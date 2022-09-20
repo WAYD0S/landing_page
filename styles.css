@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
@@ -66,6 +66,78 @@ li {
 #heroimage {
     display: inline;
     padding-top: 50px;
+} */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
+.top-container {
+    background-color: #1f2937;
+    padding: 10px 200px 10px 200px;
+    height: 550px;
+}
 
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#navitem {
+    display: inline;
+    padding: 0px 5px 0px 5px;
+}
+
+a:link, a:visited {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left, .right {
+    width: 500px;
+    height: 250px;
+    padding-top: 50px;
+}
+
+#maintext {
+    padding-bottom: 5px;
+    margin: 0px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+
+}
+
+#secondarytext {
+    margin: 0px;
+    font-size: 18px;
+    color:#e5e7eb;
+    padding-bottom: 5px;
+}
+
+#moreinfo {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 100x;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#heroimage {
+    width: 500px;
+    height: 250px;
+}
