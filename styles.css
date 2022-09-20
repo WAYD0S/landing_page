@@ -7,6 +7,7 @@ header{
     padding-top: 5px;
     padding-bottom: 75px;
     background-color: #1f2937;
+    margin-bottom: 0px;
 
 }
 
@@ -30,10 +31,41 @@ li {
     padding-right: 10px;
 }
 
-.hero {
+.herocontainer {
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 350px;
     background-color: #1f2937;
 
 }
+
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    
+}
+#maintext {
+    padding-top: 50px;
+    margin: 0px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+
+}
+
+#secondarytext {
+    margin: 0px;
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+#heroimage {
+    display: inline;
+    padding-top: 50px;
+}
+
 
