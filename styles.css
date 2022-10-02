@@ -75,7 +75,7 @@ body {
 .top-container {
     background-color: #1f2937;
     padding: 10px 200px 10px 200px;
-    height: 550px;
+    height: 450px;
 }
 
 .header-container {
@@ -140,4 +140,40 @@ a:link, a:visited {
 #heroimage {
     width: 500px;
     height: 250px;
+}
+
+.random-information {
+    height: 400px;
+}
+
+#information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 30px;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.images-container a {
+    padding: 10px;;
+}
+
+.images-container a img{
+    width: 160px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.images-container a figcaption {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
 }
