@@ -44,7 +44,7 @@ a:link, a:visited {
 }
 
 #maintext {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     margin: 0px;
     font-size: 48px;
     font-weight: bolder;
@@ -56,16 +56,16 @@ a:link, a:visited {
     margin: 0px;
     font-size: 18px;
     color:#e5e7eb;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 #moreinfo {
     background-color: #3882f6;
     color: #e5e7eb;
-    width: 100x;
-    height: 30px;
     font-size: 18px;
     border-radius: 8px;
+    padding: 4px 10px 4px 10px;
+    border-color: transparent;
 }
 
 #heroimage {
@@ -129,6 +129,47 @@ a:link, a:visited {
     font-weight: bold;
     text-align: end;
     font-size: 20px;
+}
+
+.call-to-action {
+    height: 225px;
+    padding: 0px 200px 0px 200px;
+}
+
+#action-box {
+    margin: 75px 0px 75px 0px;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1b6cee;
+    border-radius: 10px;
+    
+}
+
+#action-text {
+    color: #e5e7eb;
+    padding-left: 100px;
+}
+
+#action-heading {
+    margin-bottom: 0px;
+}
+
+#action-message {
+    margin-top: 0px;
+}
+
+#action-button {
+    padding-right: 100px;
+}
+#sign-up {
+    background-color: #1b6cee;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+    padding: 6px 16px 6px 16px;
+
 }
 
 
