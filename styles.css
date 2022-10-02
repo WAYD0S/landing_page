@@ -37,7 +37,13 @@ a:link, a:visited {
     justify-content: space-between;
 }
 
-.left, .right {
+.left {
+    width: 700px;
+    height: 250px;
+    padding-top: 50px;
+}
+
+.right {
     width: 500px;
     height: 250px;
     padding-top: 50px;
