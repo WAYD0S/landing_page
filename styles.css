@@ -132,13 +132,15 @@ a:link, a:visited {
 }
 
 .call-to-action {
-    height: 225px;
+    height: 250px;
     padding: 0px 200px 0px 200px;
+    display: grid;
+    align-items: center;
 }
 
 #action-box {
-    margin: 75px 0px 75px 0px;
-    padding: 30px 0px 30px 0px;
+    margin: 0;
+    padding: 45px 150px 45px 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -149,28 +151,39 @@ a:link, a:visited {
 
 #action-text {
     color: #e5e7eb;
-    padding-left: 100px;
 }
 
 #action-heading {
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 #action-message {
-    margin-top: 0px;
+    margin: 0px;
 }
 
 #action-button {
-    padding-right: 100px;
+
 }
 #sign-up {
     background-color: #1b6cee;
-    color: #e5e7eb;
-    border-color: #e5e7eb;
+    color: #f9faf8;
+    border-color: white;
     border-radius: 5px;
     padding: 6px 16px 6px 16px;
 
 }
 
+footer {
+    background-color: #1f2937;
+    height: 100px;
+    padding: 0px 200px 0px 200px;
+    display: grid;
+    align-items: center;
+}
+
+#footer-text {
+    text-align: center;
+    color: #f9faf8;
+}
 
 
